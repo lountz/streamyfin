@@ -94,7 +94,7 @@ export const AirplayButton: React.FC<Props> = ({
     ? parseInt(subtitleIndexStr, 10)
     : undefined;
   const bitrateValue = bitrateValueStr
-    ? parseInt(bitrateValueStr, 100)
+    ? parseInt(bitrateValueStr, 10)
     : undefined;
 
   const {
